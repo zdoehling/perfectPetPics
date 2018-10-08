@@ -1,0 +1,268 @@
+@charset "UTF-8";
+body{
+	background-color: #f9f9f9;
+}
+p, h1, h2, h3, h4, a, button, legend, form, label, input{
+	font-family: alegreya sans;
+}
+#logo{
+	width: 200px;
+	padding: 25px;
+	display: block;
+	float: left;
+}
+#menulink{
+	width: 50px;
+	padding: 75px 25px 25px 0;
+	display: inline-block;
+	float: right;
+}
+#navlinks {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	background-color: #000000;
+	background-color: rgba(87,75,144,0.65);
+	position: absolute;
+	-webkit-transition: all ease-out 0.5s;
+	transition: all ease-out 0.5s;
+	max-width: 1000px;
+}
+#navlinks.displayed {
+	top: 150px;
+	z-index: 1;
+	width: 100%;
+	max-width: 1000px;
+}
+#navlinks.start {
+	display: none;
+	max-width: 1000px;
+}
+#navlinks.collapsed {
+	top: -10em;
+	opacity: 0;
+	max-width: 1000px;
+}
+#navlinks a{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	color: #f5cd79;
+}
+.content{
+	clear: both;
+}
+footer{
+	clear: both;
+	background-color: #303952;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.footerButton{
+	display: inline-block;
+	border: none;
+	padding: 2px;
+	border-radius: 5px;
+	color: #303952;
+	background-color: white;
+	font-size: 1em; 
+}
+footer a{
+	text-decoration: none;
+	color:inherit;
+}
+footer #humane{
+	display: block;
+	width: 180px;
+	margin: auto;
+	margin-top: 8px;
+	padding: 2px;
+	background-color: #f19066;
+}
+.footerButton:hover{
+	background-color: #f5cd79;
+}
+footer #humane:hover{
+	background-color: #f5cd79;
+}
+
+
+/*YOUR CODE BELOW HERE!*/
+/*Index styles*/
+.indexStyle .homeimage{
+	text-align: center;
+}
+
+.indexStyle .responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+/*about me styles*/
+.aboutContent *{
+	box-sizing: border-box;
+}
+.aboutContent .portrait {
+	float: left;
+	padding: 10px;
+	width: 40%;
+	height: 40%;
+	max-width: 50%
+	max-height: 50%;
+}
+.aboutContent h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #FF7F50;
+}
+.aboutContent article {
+	padding: 5px;
+	float: right;
+	width: 60%;
+	background-color: #FF7F50;
+	color: white;
+}
+.aboutContent .hello {
+	font-style: italic;
+}
+@media screen and (min-width:800px) {
+	.aboutContent .info {
+    width:100%;
+}
+}
+
+/*pricing styles*/
+.pContent legend {
+	font-size: 150%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f19066;
+	color: white;
+}
+
+.pContent form {
+	padding: 5px 10px;
+	margin: 10px auto;
+	width: 450px;
+	border-radius: 20px;
+}
+
+.pContent fieldset {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #303952;
+	color: white;
+}
+
+.pContent h3 {
+	font-size: 120%;
+}
+
+.pContent .submitButton input {
+	display: block;
+	border: none;
+	border-radius: 5px;
+	font-size: 200%;
+	color: white;
+	background-color: #f19066; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pContent .submitButton {
+	border: none;
+}
+
+/*gallery styles*/
+.galleryStyles #gallery {
+	margin: auto;
+	text-align: center;
+	color: #303952;
+	
+}
+
+
+.galleryStyles *{
+    box-sizing: border-box;
+}
+
+.galleryStyles body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.galleryStyles .header {
+    text-align: center;
+    padding: 32px;
+}
+
+.galleryStyles .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 10px;
+	border-color: #546de5;
+	background-color: #f19066;
+}
+
+/* Create four equal columns that sits next to each other */
+.galleryStyles .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.galleryStyles .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+	width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .galleryStyles .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .galleryStyles .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/*Put your desktop styles here*/
+@media (min-width: 550px){
+/*index desktop styles*/
+
+/*about desktop styles*/
+
+/*gallery desktop styles*/
+
+/*pricing desktop styles*/
+
+}
+
+
