@@ -2,7 +2,9 @@
 body{
 	background-color: #f9f9f9;
 }
-p, h1, h2, h3, h4, a, button, legend, form, label, input{
+
+p, h1, h2, h3, h4, a, button, legend, form, label, input
+{
 	font-family: alegreya sans;
 }
 #logo{
@@ -99,7 +101,6 @@ footer #humane{
 footer #humane:hover{
 	background-color: #f5cd79;
 }
-
 
 /*YOUR CODE BELOW HERE!*/
 /*Index styles*/
