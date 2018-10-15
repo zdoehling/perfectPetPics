@@ -9,5 +9,5 @@ The workflow pretty much will include us,
 Only paste the lines that you changed because your version may not be the most up to date and if you copy and paste all your code you may remove work other people have done!!!!
 
 
-###Why we decided to try this
+### Why we decided to try this
 Because we will all be editing different lines of code on the same page rather than working with seperate pages like we did last time. This way 2 people can made edits to something without worrying about having the most up-to-date files as the files on github should always be the current versions
