@@ -11,6 +11,9 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input{
 	display: block;
 	float: left;
 }
+#horzNav{
+	display: none;
+}
 #menulink{
 	width: 50px;
 	padding: 75px 25px 25px 0;
@@ -254,7 +257,41 @@ footer #humane:hover{
 }
 
 /*Put your desktop styles here*/
-@media (min-width: 550px){
+@media (min-width: 625px){
+	body{
+		width: 80%;
+		margin: auto;
+	}
+	header{
+		margin-right: 20px;
+		margin-left: 20px;
+		background-color: #f5cd79;
+	}
+	#logo{
+		width: 135px;
+	}
+	#menulink{
+		display: none;
+	}
+	#horzNav{
+		display: block;
+		float: right;
+		margin-top: 80px;
+		list-style-type: none;
+	}
+	#horzNav li{
+		display: inline;
+	}
+	#horzNav li a{
+		color: #f19066;
+		font-size: 1.25em;
+		font-variant: thin;
+		padding: 6px 12px;
+		text-decoration: none;
+	}
+	#horzNav li a:hover{
+		color: #f5cd79;
+	}
 /*index desktop styles*/
 
 /*about desktop styles*/
