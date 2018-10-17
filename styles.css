@@ -36,7 +36,7 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 	max-width: 1000px;
 }
 #navlinks.displayed {
-	top: 150px;
+	top: 283px;
 	z-index: 1;
 	width: 100%;
 	max-width: 1000px;
@@ -258,7 +258,7 @@ footer #humane:hover{
 }
 
 /*Put your desktop styles here*/
-@media (min-width: 625px){
+@media (min-width: 800px){
 	body{
 		width: 80%;
 		margin: auto;
