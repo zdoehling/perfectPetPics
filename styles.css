@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body{
 	background-color: #f9f9f9;
+	width: 100%;
 }
 
 p, h1, h2, h3, h4, a, button, legend, form, label, input
@@ -64,6 +65,10 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 }
 .content{
 	clear: both;
+	width: 100%;
+}
+p{
+	padding: 10px;
 }
 footer{
 	clear: both;
@@ -107,43 +112,26 @@ footer #humane:hover{
 .indexStyle .homeimage{
 	text-align: center;
 }
-
-.indexStyle .responsive {
+.responsiveImg {
 	max-width: 100%;
 	height: auto;
 }
-
 /*about me styles*/
-.aboutContent *{
-	box-sizing: border-box;
-}
-.aboutContent .portrait {
-	float: left;
-	padding: 10px;
-	width: 40%;
-	height: 40%;
-	max-width: 50%;
-	max-height: 50%;
+#bonnieImg {
+	max-width: 80%;
+	display: block;
+	margin: auto;
 }
 .aboutContent h1 {
-	font-size: 50px;
+	font-size: 35px;
 	text-align: center;
 	color: #FF7F50;
 }
 .aboutContent article {
+	width: 80%;
 	padding: 5px;
-	float: right;
-	width: 60%;
-	background-color: #FF7F50;
-	color: white;
-}
-.aboutContent .hello {
-	font-style: italic;
-}
-@media screen and (min-width:800px) {
-	.aboutContent .info {
-    width:100%;
-}
+	color: #303952;
+	margin: auto;
 }
 
 /*pricing styles*/
@@ -159,6 +147,7 @@ footer #humane:hover{
 	padding: 5px 10px;
 	margin: 10px auto;
 	width: 450px;
+	max-width: 100%;
 	border-radius: 20px;
 }
 
@@ -193,10 +182,8 @@ footer #humane:hover{
 .galleryStyles #gallery {
 	margin: auto;
 	text-align: center;
-	color: #303952;
-	
+	color: #303952;	
 }
-
 
 .galleryStyles *{
     box-sizing: border-box;
@@ -296,11 +283,27 @@ footer #humane:hover{
 /*index desktop styles*/
 
 /*about desktop styles*/
-
+.aboutContent *{
+	box-sizing: border-box;
+}
+.aboutContent .portrait {
+	float: left;
+	width: 40%;
+	max-width: 50%;
+}
+.aboutContent h1 {
+	font-size: 35px;
+	text-align: left;
+	color: #FF7F50;
+}
+.aboutContent article {
+	padding: 5px;
+	float: right;
+	width: 60%;
+	color: #303952;
+}
 /*gallery desktop styles*/
 
 /*pricing desktop styles*/
 
 }
-
-
