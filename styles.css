@@ -63,6 +63,10 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 #navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
 	color: #f5cd79;
 }
+.pageTitle{
+	text-align: center;
+	color: #303952;	
+}
 .content{
 	clear: both;
 	width: 100%;
@@ -291,10 +295,8 @@ footer #humane:hover{
 	width: 40%;
 	max-width: 50%;
 }
-.aboutContent h1 {
-	font-size: 35px;
+.aboutme h1{
 	text-align: left;
-	color: #FF7F50;
 }
 .aboutContent article {
 	padding: 5px;
