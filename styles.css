@@ -126,10 +126,10 @@ footer #humane:hover{
 	display: block;
 	margin: auto;
 }
-.aboutContent h1 {
+.aboutContent>h1 {
 	font-size: 35px;
 	text-align: center;
-	color: #FF7F50;
+	color: #303952;
 }
 .aboutContent article {
 	width: 80%;
