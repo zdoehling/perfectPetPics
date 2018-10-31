@@ -165,6 +165,14 @@ footer #humane:hover{
 	font-size: 120%;
 }
 
+.pContent label, input {
+	display: inline-block;
+}
+
+.pContent label {
+	text-align: left;
+}
+
 .pContent .submitButton input {
 	display: block;
 	border: none;
