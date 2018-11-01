@@ -471,7 +471,7 @@ footer #humane:hover{
 @media only screen and (max-width:600px){
 
     #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
-        display:none;
+        /*display:none;*/
     }
 
     
