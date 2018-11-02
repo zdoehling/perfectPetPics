@@ -157,8 +157,7 @@ footer #humane:hover{
 .pContent fieldset {
 	border: 2px solid black;
 	border-radius: 5px;
-	background-color: #303952;
-	color: white;
+	color: black;
 }
 
 .pContent h3 {
@@ -539,5 +538,38 @@ footer #humane:hover{
 /*gallery desktop styles*/
 
 /*pricing desktop styles*/
+.pContent form {
+	padding: 5px 10px;
+	margin: 10px auto;
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.pContent fieldset {
+	border: 2px solid black;
+	border-radius: 5px;
+	color: black;
+}
+
+.pContent h3 {
+	font-size: 120%;
+	padding-left: 50px;
+}
+
+.pContent input {
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.pContent .check input {
+	
+}
+
+.pContent label {
+  	display: inline-block;
+   	margin-bottom: 10px;
+   	padding-left: 50px;
+   	width: 20%;
+}
 
 }
