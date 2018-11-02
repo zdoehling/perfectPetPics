@@ -120,7 +120,35 @@ footer #humane:hover{
 	max-width: 100%;
 	height: auto;
 }
-
+.info {
+    text-align: center;
+}
+.pricinglink {
+    text-align: center;
+}
+.pricinglink a {
+    text-decoration: none;
+    color: dimgrey;
+}
+.pricinglink a:hover {
+    text-decoration: underline;
+    color: #f19066;
+}
+.interest {
+    text-align: center;
+}
+.articles {
+    list-style-type: none;
+    text-align: center;
+}
+.articles li a {
+    text-decoration: none;
+    color: dimgrey;
+}
+.articles li a:hover {
+    text-decoration: underline;
+    color: #f19066;
+}
 #ninja-slider {
     width:100%;
     background:rgba(0,0,0,0.8);
@@ -518,7 +546,14 @@ footer #humane:hover{
 	color: #303952;
 	margin: auto;
 }
-
+.humanelink a {
+    text-decoration: none;
+    color: dimgrey;
+}
+.humanelink a:hover {
+    text-decoration: underline;
+    color: #f19066;
+}
 /*pricing styles*/
 .pContent legend {
 	font-size: 150%;
