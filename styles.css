@@ -143,11 +143,11 @@ footer #humane:hover{
 }
 .articles li a {
     text-decoration: none;
-    color: dimgrey;
+    color: #f19066;
 }
 .articles li a:hover {
     text-decoration: underline;
-    color: #f19066;
+    color: dimgrey;
 }
 #ninja-slider {
     width:100%;
