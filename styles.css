@@ -1,7 +1,16 @@
 @charset "UTF-8";
+html {
+	background-image: url("images/pawTexture.png");
+	
+}
 body{
 	background-color: #f9f9f9;
-	width: 100%;
+	margin: 0px auto;
+	width: 90%;
+	max-width: 1100px;
+	min-width: 720px;
+	box-shadow: 10px 10px 50px #333333,
+				-10px 10px 50px #333333;
 }
 
 p, h1, h2, h3, h4, a, button, legend, form, label, input
@@ -114,17 +123,17 @@ footer #humane:hover{
 /*YOUR CODE BELOW HERE!*/
 /*Index styles*/
 .indexStyle .homeimage{
-	text-align: center;
+	text-align: left;
 }
 .responsiveImg {
 	max-width: 100%;
 	height: auto;
 }
 .info {
-    text-align: center;
+    text-align: left;
 }
 .pricinglink {
-    text-align: center;
+    text-align: left;
 }
 .pricinglink a {
     text-decoration: none;
@@ -135,11 +144,11 @@ footer #humane:hover{
     color: dimgrey;
 }
 .interest {
-    text-align: center;
+    text-align: left;
 }
 .articles {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
 }
 .articles li a {
     text-decoration: none;
