@@ -128,11 +128,11 @@ footer #humane:hover{
 }
 .pricinglink a {
     text-decoration: none;
-    color: dimgrey;
+    color: #f19066;
 }
 .pricinglink a:hover {
     text-decoration: underline;
-    color: #f19066;
+    color: dimgrey;
 }
 .interest {
     text-align: center;
@@ -548,11 +548,11 @@ footer #humane:hover{
 }
 .humanelink a {
     text-decoration: none;
-    color: dimgrey;
+    color: #f19066dimgrey;
 }
 .humanelink a:hover {
     text-decoration: underline;
-    color: #f19066;
+    color: dimgrey;
 }
 /*pricing styles*/
 .pContent legend {
