@@ -557,7 +557,7 @@ footer #humane:hover{
 }
 .humanelink a {
     text-decoration: none;
-    color: #f19066dimgrey;
+    color: #f19066;
 }
 .humanelink a:hover {
     text-decoration: underline;
