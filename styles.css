@@ -619,6 +619,11 @@ footer #humane:hover{
 	border: none;
 }
 
+.column {
+	column-width: 250px;
+	column-gap: 25px;
+}
+
 /*gallery styles*/
 #ninja-slider {
     width:100%;
