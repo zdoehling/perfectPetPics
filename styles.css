@@ -211,6 +211,7 @@ footer #humane:hover{
 
 .pContent input {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .pContent .check input {
@@ -220,14 +221,14 @@ footer #humane:hover{
 .pContent label {
   	display: inline-block;
   	margin-bottom: 10px;
-  	width: 35%;
+  	width: 40%;
 }
 
 .pContent .submitButton input {
 	display: block;
 	border: none;
 	border-radius: 5px;
-	font-size: 200%;
+	font-size: 150%;
 	color: white;
 	background-color: #f19066; 
 	text-align: center;
