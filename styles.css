@@ -12,7 +12,7 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 	font-family: alegreya sans;
 }
 #logo{
-	width: 200px;
+	width: 150px;
 	padding: 25px;
 	display: block;
 	float: left;
@@ -277,11 +277,11 @@ article div:hover {
 }
 
 #leftarrow {
-	left: 5%;
+	left: 10%;
 }
 
 #rightarrow {
-	right: 5%;
+	right: 10%;
 }
 
 #leftarrow p, #rightarrow p {
@@ -303,10 +303,7 @@ article div:hover {
 	clear: both;	
 }
 
-#leftarrow:hover, #rightarrow:hover {
-	background-color: #303952;
-	
-}
+
 
 figure img {
 	width: 100%;
@@ -373,11 +370,11 @@ img{
 /*Gallery Desktop Styles*/
 
 #leftarrow {
-	left: 14%;
+	left: 15.5%;
 }
 
 #rightarrow {
-	right: 14%;
+	right: 15.5%;
 }
 	
 #leftarrow:hover, #rightarrow:hover {
@@ -385,6 +382,10 @@ img{
 }
 figure img {
 	width: 75%;
+}
+#leftarrow:hover, #rightarrow:hover {
+	background-color: #303952;
+	
 }
 
 /*about desktop styles*/
@@ -406,7 +407,6 @@ figure img {
 	color: #303952;
 }
 
-/*gallery desktop styles*/
 
 /*pricing desktop styles*/
 .pContent form {
