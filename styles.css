@@ -590,7 +590,6 @@ footer #humane:hover{
 
 .pContent input {
 	display: inline-block;
-	padding-left: 50px;
 }
 
 .pContent .check input {
@@ -598,10 +597,9 @@ footer #humane:hover{
 }
 
 .pContent label {
-   display: inline-block;
-   margin-bottom: 10px;
-   padding-left: 50px;
-   width: 35%;
+  	display: inline-block;
+  	margin-bottom: 10px;
+  	width: 35%;
 }
 
 .pContent .submitButton input {
