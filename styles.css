@@ -134,16 +134,14 @@ footer #humane:hover{
 /*YOUR CODE BELOW HERE!*/
 
 /*Index styles*/
-
-h2 {
+.row>h2 {
     padding-left: 5%;
 }
 .colrev blockquote {
 	width: 40%;
 	background: rgba(241, 144, 102, .5);
 	border: 1px solid black;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px;
 	float: left;
 	
 }
@@ -174,67 +172,73 @@ h2 {
     .column {
         width: 100%;
     }
-.colrev blockquote {
-	width: 90%;
-	float: none;
-    padding-right: 0;
-    padding-left: 0;
-	margin: 5%;
-}
+	.colrev blockquote {
+		width: 90%;
+		float: none;
+		padding-right: 0;
+		padding-left: 0;
+		margin: 5%;
+	}
 
-.colrev .colimg{
-	width: 90%;
-	float: none;
-    padding-right: 0;
-    padding-left: 0;
-	margin: 5%;
+	.colrev .colimg{
+		width: 90%;
+		float: none;
+		padding-right: 0;
+		padding-left: 0;
+		margin: 5%;
+	}
 }
-
 .indexStyle .homeimage{
 	text-align: left;
 }
-
 .responsiveImg {
 	max-width: 100%;
 	height: auto;
 }
-
 .info {
-    text-align: left;
+    text-align: justify;
     text-decoration: none;
     color: ##303952;
     border: 20%;
-    padding:5%;
+    padding: 5%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
-
 .pricinglink {
-    text-align: center;
+    text-align: left;
+    padding: 5%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
-
 .pricinglink a {
     text-decoration: none;
     color: #f19066;
 }
-
 .pricinglink a:hover {
     text-decoration: underline;
     color: dimgrey;
 }
-
 .interest {
     text-align: center;
 }
-
 .articles {
     list-style-type: none;
     text-align: center;
 }
-
+.articles h2 {
+	padding: 0;
+	padding-bottom: 1em;
+}
+.articles ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1em;
+}
 .articles li a {
     text-decoration: none;
     color: #f19066;
 }
-
 .articles li a:hover {
     text-decoration: underline;
     color: dimgrey;
