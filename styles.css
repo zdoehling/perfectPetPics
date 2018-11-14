@@ -546,6 +546,7 @@ footer #humane:hover{
 @media (min-width: 800px){
 	html {
 	background-image: url("images/pawTexture.png");
+	background-size: 150px;
 	
 }
 	body{
