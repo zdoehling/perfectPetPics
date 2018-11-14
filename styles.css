@@ -264,7 +264,7 @@ footer #humane:hover{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 5px;
 }
 
 .pContent .submitButton {
@@ -276,10 +276,12 @@ footer #humane:hover{
 	column-gap: 25px;
 }
 
-.seal {
-	display: block;
-	width: 200px;
-	float: right;
+.submitButton {
+	background-image: url("images/Seal.png");
+	background-position: center;
+	background-size: 150px;
+	background-repeat: no-repeat;
+	height: 200px;
 }
 
 /*gallery styles*/
