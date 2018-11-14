@@ -7,25 +7,28 @@ body{
 	max-width: 1100px;
 }
 
-p, h1, h2, h3, h4, a, button, legend, form, label, input
-{
+p, h1, h2, h3, h4, a, button, legend, form, label, input {
 	font-family: alegreya sans;
 }
+
 #logo{
 	width: 150px;
 	padding: 25px;
 	display: block;
 	float: left;
 }
+
 #horzNav{
 	display: none;
 }
+
 #menulink{
 	width: 50px;
 	padding: 75px 25px 25px 0;
 	display: inline-block;
 	float: right;
 }
+
 #navlinks {
 	width: 100%;
 	margin: 0;
@@ -39,21 +42,25 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 	transition: all ease-out 0.5s;
 	max-width: 1000px;
 }
+
 #navlinks.displayed {
 	top: 283px;
 	z-index: 1;
 	width: 100%;
 	max-width: 1000px;
 }
+
 #navlinks.start {
 	display: none;
 	max-width: 1000px;
 }
+
 #navlinks.collapsed {
 	top: -10em;
 	opacity: 0;
 	max-width: 1000px;
 }
+
 #navlinks a{
 	display: block;
 	padding-top: 10px;
@@ -63,20 +70,25 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 #navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
 	color: #f5cd79;
 }
+
 .pageTitle{
 	text-align: center;
 	color: #303952;	
 }
+
 .content{
 	clear: both;
 	width: 100%;
 }
+
 p{
 	padding: 10px;
 }
+
 footer{
 	clear: both;
 	background-color: #303952;
@@ -86,6 +98,7 @@ footer{
     font-size: 1em;
     text-align: center;
 }
+
 .footerButton{
 	display: inline-block;
 	border: none;
@@ -95,10 +108,12 @@ footer{
 	background-color: white;
 	font-size: 1em; 
 }
+
 footer a{
 	text-decoration: none;
 	color:inherit;
 }
+
 footer #humane{
 	display: block;
 	width: 180px;
@@ -107,9 +122,11 @@ footer #humane{
 	padding: 2px;
 	background-color: #f19066;
 }
+
 .footerButton:hover{
 	background-color: #f5cd79;
 }
+
 footer #humane:hover{
 	background-color: #f5cd79;
 }
@@ -120,10 +137,12 @@ footer #humane:hover{
 .indexStyle .homeimage{
 	text-align: left;
 }
+
 .responsiveImg {
 	max-width: 100%;
 	height: auto;
 }
+
 .info {
     text-align: left;
     text-decoration: none;
@@ -131,28 +150,35 @@ footer #humane:hover{
     border: 20%;
     padding:5%;
 }
+
 .pricinglink {
     text-align: center;
 }
+
 .pricinglink a {
     text-decoration: none;
     color: #f19066;
 }
+
 .pricinglink a:hover {
     text-decoration: underline;
     color: dimgrey;
 }
+
 .interest {
     text-align: center;
 }
+
 .articles {
     list-style-type: none;
     text-align: center;
 }
+
 .articles li a {
     text-decoration: none;
     color: #f19066;
 }
+
 .articles li a:hover {
     text-decoration: underline;
     color: dimgrey;
@@ -164,20 +190,24 @@ footer #humane:hover{
 	display: block;
 	margin: auto;
 }
+
 .aboutContent>h1 {
 	text-align: center;
 	color: #303952;
 }
+
 .aboutContent article {
 	width: 80%;
 	padding: 5px;
 	color: #303952;
 	margin: auto;
 }
+
 .humanelink a {
     text-decoration: none;
     color: #f19066;
 }
+
 .humanelink a:hover {
     text-decoration: underline;
     color: dimgrey;
@@ -421,10 +451,6 @@ figure img {
 	border: 2px solid black;
 	border-radius: 5px;
 	color: black;
-}
-
-br.phone {
-	display: none;
 }
 
 .pContent h3 {
