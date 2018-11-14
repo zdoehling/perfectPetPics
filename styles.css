@@ -246,9 +246,9 @@ footer #humane:hover{
 }
 
 .seal {
+	display: block;
 	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	float: right;
 }
 
 /*gallery styles*/
@@ -644,10 +644,6 @@ br.phone {
    	margin-bottom: 10px;
    	padding-left: 50px;
    	width: 20%;
-}
-
-.seal {
-	float: right;
 }
 
 .pContent form {
