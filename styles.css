@@ -7,7 +7,7 @@ body{
 	max-width: 1100px;
 }
 
-p, h1, h2, h3, h4, a, button, legend, form, label, input {
+p, h1, h2, h3, h4, a, button, legend, form, label, input, blockquote {
 	font-family: alegreya sans;
 }
 
@@ -134,6 +134,62 @@ footer #humane:hover{
 /*YOUR CODE BELOW HERE!*/
 
 /*Index styles*/
+
+h2 {
+    padding-left: 5%;
+}
+.colrev blockquote {
+	width: 40%;
+	background: rgba(241, 144, 102, .5);
+	border: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+	float: left;
+	
+}
+.colrev blockquote:first-of-type {
+	margin-top: 0;
+}
+
+.colrev .colimg{
+	width: 40%;	
+	margin-top: 0;
+	padding-top: 0;
+	padding-right: 5%;
+	float: right;
+}
+
+.colrev .colimg img{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+.colrev blockquote {
+	width: 90%;
+	float: none;
+    padding-right: 0;
+    padding-left: 0;
+	margin: 5%;
+}
+
+.colrev .colimg{
+	width: 90%;
+	float: none;
+    padding-right: 0;
+    padding-left: 0;
+	margin: 5%;
+}
+
 .indexStyle .homeimage{
 	text-align: left;
 }
