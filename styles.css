@@ -1,15 +1,10 @@
 @charset "UTF-8";
-html {
-	background-image: url("images/pawTexture.png");
-	
-}
+
 body{
 	background-color: #f9f9f9;
 	margin: 0px auto;
 	width: 90%;
 	max-width: 1100px;
-	box-shadow: 10px 10px 50px #333333,
-				-10px 10px 50px #333333;
 }
 
 p, h1, h2, h3, h4, a, button, legend, form, label, input
@@ -548,9 +543,15 @@ footer #humane:hover{
 
 /*Put your desktop styles here*/
 @media (min-width: 800px){
+	html {
+	background-image: url("images/pawTexture.png");
+	
+}
 	body{
 		width: 80%;
 		margin: auto;
+			box-shadow: 10px 10px 50px #333333,
+				-10px 10px 50px #333333;
 	}
 	header{
 		margin-right: 20px;
