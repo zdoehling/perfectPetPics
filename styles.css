@@ -115,6 +115,7 @@ footer #humane:hover{
 }
 
 /*YOUR CODE BELOW HERE!*/
+
 /*Index styles*/
 .indexStyle .homeimage{
 	text-align: left;
@@ -182,6 +183,7 @@ footer #humane:hover{
     text-decoration: underline;
     color: dimgrey;
 }
+
 /*pricing styles*/
 .pContent legend {
 	font-size: 150%;
@@ -583,7 +585,9 @@ footer #humane:hover{
 	#horzNav li a:hover{
 		color: #f5cd79;
 	}
+	
 /*index desktop styles*/
+
 
 /*about desktop styles*/
 .aboutContent *{
@@ -603,6 +607,7 @@ footer #humane:hover{
 	width: 60%;
 	color: #303952;
 }
+
 /*gallery desktop styles*/
 
 /*pricing desktop styles*/
