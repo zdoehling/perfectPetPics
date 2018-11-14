@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src = "js/sliderGallery.js"></script>
 </head>
-<body>
+<body id = "galleryCont">
 	<header>
 		<a href="index.html"><img src="images/logo.png" id="logo" alt="logo"></a>
 		<nav>
@@ -60,7 +60,6 @@
 			<br>
 			<br>-->
 	</article>
-
     <!--end-->
     
 
@@ -73,5 +72,10 @@
 	<a class="footerButton" id="humane" href="http://www.humanesociety.org/" target="_blank">Link to Humane Society</a>
 </footer>
 <script src="js/menu.js"></script>
+<script>
+	if (window.addEventListener) {
+		window.addEventListener("load", imageGallery, false); 
+	} 
+</script>
 </body>
 </html>
