@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input {
 }
 
 #navlinks {
-	width: 100%;
+	width: 90%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -46,7 +46,7 @@ p, h1, h2, h3, h4, a, button, legend, form, label, input {
 #navlinks.displayed {
 	top: 283px;
 	z-index: 1;
-	width: 100%;
+	width: 90%;
 	max-width: 1000px;
 }
 
@@ -363,8 +363,8 @@ img{
 	body{
 		width: 80%;
 		margin: auto;
-			box-shadow: 10px 10px 50px #333333,
-				-10px 10px 50px #333333;
+			box-shadow: 10px 10px 30px rgba(0,0,0,0.3),
+				-10px 10px 30px rgba(0,0,0,0.3);
 	}
 	header{
 		margin-right: 20px;
