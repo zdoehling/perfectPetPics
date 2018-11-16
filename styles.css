@@ -202,7 +202,6 @@ footer #humane:hover{
     text-align: justify;
     text-decoration: none;
     color: #303952;
-    border: 20%;
     padding: 5%;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -452,7 +451,7 @@ img{
 	#horzNav li a{
 		color: #f19066;
 		font-size: 1.25em;
-		font-variant: thin;
+		font-weight: 200;
 		padding: 6px 12px;
 		text-decoration: none;
 	}
