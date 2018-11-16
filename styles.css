@@ -167,7 +167,9 @@ footer #humane:hover{
     display: table;
     clear: both;
 }
-
+#reviews{
+	text-align: center;
+}
 @media screen and (max-width: 950px) {
     .column {
         width: 100%;
@@ -466,7 +468,9 @@ img{
     text-align: left;
 	padding-left: 5%;
 }
-	
+#reviews{
+		text-align: left;
+	}	
 /*Gallery Desktop Styles*/
 
 #leftarrow {
