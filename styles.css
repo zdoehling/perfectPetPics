@@ -168,7 +168,7 @@ footer #humane:hover{
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
     .column {
         width: 100%;
     }
@@ -198,7 +198,7 @@ footer #humane:hover{
 .info {
     text-align: justify;
     text-decoration: none;
-    color: ##303952;
+    color: #303952;
     border: 20%;
     padding: 5%;
 	padding-top: 0;
@@ -458,7 +458,14 @@ img{
 	}
 	
 /*index desktop styles*/
-
+.interest {
+    text-align: left;
+	padding-left: 5%;
+}
+.articles {
+    text-align: left;
+	padding-left: 5%;
+}
 	
 /*Gallery Desktop Styles*/
 
